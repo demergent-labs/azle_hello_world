@@ -30,7 +30,7 @@ npm run canister_deploy_local
 To call the methods on your canister:
 
 ```bash
-npm run canister_call_set_message '("Hello world!")'
+npm run canister_call_set_message
 npm run canister_call_get_message
 ```
 
