@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "dfx_install": "DFX_VERSION=0.14.0 sh -ci \"$(curl -fsSL https://sdk.dfinity.org/install.sh)\"",
+        "dfx_install": "DFX_VERSION=0.14.2 sh -ci \"$(curl -fsSL https://sdk.dfinity.org/install.sh)\"",
         "replica_start": "dfx start --background",
         "replica_stop": "dfx stop",
         "canister_deploy_local": "dfx deploy azle_hello_world",
@@ -10,7 +10,7 @@
         "canister_call_set_message": "dfx canister call azle_hello_world set_message '(\"Hello world!\")'"
     },
     "dependencies": {
-        "azle": "0.16.0"
+        "azle": "0.17.0"
     }
 }
 
